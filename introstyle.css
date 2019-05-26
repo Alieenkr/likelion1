@@ -1,0 +1,71 @@
+body, html{
+    color: #3D3D3D;
+}
+
+header{
+    font-family: 'Noto Serif KR', sans-serif;   
+}
+
+#main{
+    background-color: lightgray;
+    padding-top: 56.25%;
+    background-position: center;
+}
+
+.section{
+    height: auto;
+}
+
+.navbar-nav{
+    font-family: 'Noto Serif KR', sans-serif;   
+}
+
+.detail{
+    display:flex;        
+    flex-direction:row;  
+    width: 900px;        
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+  }
+  
+  .information{
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    font-family: 'Noto Serif KR', sans-serif;
+  }
+  
+  .information img{
+    padding: 5px;
+    width: 250px;
+    height: auto;
+  }
+  
+  .word{
+    border-left: 1px dotted black;
+    padding: 50px;
+    font-size: 13px;
+  }
+  
+  .word .price{
+    margin-bottom: 40px;
+  }
+
+  .container h1{
+
+  }
+  
+  .word table{
+    border-collapse: collapse;
+    margin: 10px;
+  }
+  
+  .word td{
+    border-bottom: 1px dotted #3D3D3D;
+    padding: 5px;
+  }
